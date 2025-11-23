@@ -39,10 +39,7 @@
 
 ## Demo
 <div>
-  <img src="parking-demo-01.jpg" alt="Figure 1 — Smart Parking Dashboard" width="24%" />
-  <img src="parking-demo-02.jpg" alt="Figure 2 — Occupancy Map" width="24%" />
-  <img src="parking-demo-03.jpg" alt="Figure 3 — Real-time Alerts" width="24%" />
-  <img src="parking-demo-04.jpg" alt="Figure 4 — Analytics" width="24%" />
+  <img src="smart-parking-demo-01.jfif" alt="Figure 1 — Smart Parking Dashboard" width="24%" />
   <p align="center"><em>Figures 1–4 — Smart Parking System Overview</em></p>
 </div>
 
