@@ -19,16 +19,12 @@
 ## Key Features
 - Real-time parking spot occupancy detection
 - Sensor integration for vehicle presence
-- Cloud data storage and management
-- Mobile-friendly dashboard
-- Occupancy history and analytics
 - Cost-effective IoT solution
 
 ## Quick Start (60 Seconds)
-1. Prepare hardware: sensors, microcontroller, network connectivity
-2. Configure cloud backend (Firebase, AWS, or similar)
-3. Deploy sensor firmware
-4. Access dashboard to monitor parking availability
+1. Prepare hardware: sensors, microcontroller, network connectivity 
+2. Deploy sensor firmware
+3. Access LCD to monitor parking availability
 
 ## Use Cases
 - Urban parking management
