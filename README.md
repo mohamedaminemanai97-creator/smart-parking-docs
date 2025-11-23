@@ -44,22 +44,18 @@
 </div>
 
 ## Architecture & Hardware
-- Microcontroller: ESP32 / Arduino / Raspberry Pi
-- Sensors: Ultrasonic / IR / Magnetic loop
-- Connectivity: WiFi / LoRaWAN / 4G
-- Backend: Firebase / AWS IoT / Azure IoT Hub
+- Microcontroller: ESP32 
+- Sensors: HC-SR04 Ultrasonic Sensor Module
+- Actuators: Servo Motor
 
 ## Functionality
-- Detect vehicle presence in parking spots
-- Send occupancy data to cloud platform
-- Display real-time availability on dashboard
-- Generate occupancy reports and insights
-- Alert system for full parking lots
+- Tracks available parking spaces and displays the real-time status on the LCD screen.​
+- Detects car entry via push button, welcomes the user, opens the gate (servo motor), and decrements the free space count.
+- Detects car exit using the ultrasonic sensor, says farewell, opens the gate, and increments the free space count.
+- Controls barrier movement with a servo motor, ensuring only authorized car entry/exit is allowed based on available slots
 
 ## Project Structure
 - `firmware/` : Sensor and microcontroller code
-- `backend/` : Server and API endpoints
-- `frontend/` : Dashboard and UI
 - `docs/` : Documentation and guides
 - `hardware/` : Schematics and BOM
 
@@ -73,10 +69,7 @@
 
 ## Deployment
 1. Flash firmware on microcontroller
-2. Configure WiFi and cloud credentials
-3. Deploy backend services
-4. Launch web dashboard
-5. Monitor and manage parking system
+2. Monitor and manage parking system
 
 ## Contributing
 Contributions are welcome! Please feel free to submit issues and pull requests.
