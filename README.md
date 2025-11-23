@@ -14,7 +14,7 @@
 [![IoT](https://img.shields.io/badge/IoT-Smart%20Parking-3498db?logo=iot)](https://github.com/mohamedaminemanai97-creator/smart-parking-docs)
 [![License](https://img.shields.io/badge/License-Educational-blue)](#license)
 
-🅿️📡 **Pitch**: A smart parking system that detects parking spot occupancy using sensors and provides real-time availability data through a cloud-based platform. Perfect for modern urban parking management.
+🅿️📡 **Pitch**: A smart parking system that detects parking spot occupancy using sensors and provides real-time availability data through LCD monitor. Perfect for modern urban parking management.
 
 ## Key Features
 - Real-time parking spot occupancy detection
